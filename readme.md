@@ -133,3 +133,8 @@ Exercice :
 3. Afficher le nombres de passagers et de roues de façon dynamique
 4. Créer un composant List de Véhicule qui permet d'afficher plusieurs véhicule avec leurs caractérisques
 5. Avec la fonction random créer une Liste de véhicule aléatoire
+6. Ajouter un props marque à votre composant Véhicule, afficher cette dernière en Majuscule
+7. Ajouter un bouton pour ajouter un véhicule à votre list de véhicules (je vous conseille de mettre votre list de véhicules dans un tableau, indice : useState)
+8. Ajouter un bouton supprimer qui permet de supprimer un véhicule de la liste
+9. AJouter un bouton qui va permettre d'inverser le nom de la marque du véhicule
+10. Ajouter une alerte lorqu'il y a plus de 6 véhicules (regarder la fonction useEffect, indice : [listVehicule.length] )

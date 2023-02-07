@@ -29,6 +29,7 @@ function App() {
         {roue : 3, nbPassager : 3},
         {roue : 2, nbPassager : 1}
    ]
+   
     return (
         <div style={{width : "300px", margin : 'auto', marginTop : '20px'}}>
             <ListVehicules vehicules={vehicules}/>
