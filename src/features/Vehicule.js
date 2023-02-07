@@ -10,16 +10,16 @@ import React from 'react';
 //     );
 //    }
 // }
-function Vehicule({nbRoue, passagers}){
-    if(nbRoue < 2){
+function Vehicule({roue, passagers}){
+    if(roue < 2){
         throw new Error('Erreur de nombre de roues')
     }
     return (
         <div>
             <label>Nombre de roues</label>
-            <span>{nbRoue}</span>
+            <span>{roue}</span>
             <label>Nombre de roues</label>
-            <span>{passagers}</span>
+            <span>{nbPassager}</span>
         </div>
     )
 }
