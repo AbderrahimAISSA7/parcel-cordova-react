@@ -126,3 +126,10 @@ Compiler en mode release
 $ npx cordova build --release
 $ npx cordova build android --buildConfig=build.json --release
 ```
+./features : contient les composants React
+Exercice :
+1. Créer un composant React qui s'appelle Véhicule avec les props suivants, (roues, nombres de passagers)
+2. Si les roues du véhicule sont inférieur à 2 renvoyer une erreur
+3. Afficher le nombres de passagers et de roues de façon dynamique
+4. Créer un composant List de Véhicule qui permet d'afficher plusieurs véhicule avec leurs caractérisques
+5. Avec la fonction random créer une Liste de véhicule aléatoire
